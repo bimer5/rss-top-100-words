@@ -1,0 +1,24 @@
+{
+  "name": "rss-top-100-popular-word",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node ./app"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "axios": "^0.18.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0",
+    "p-queue": "^3.0.0",
+    "rss-parser": "^3.6.2",
+    "sanitize-html": "^1.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "nodemon": "^1.18.10"
+  }
+}
