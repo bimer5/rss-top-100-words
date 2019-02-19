@@ -2,3 +2,6 @@
 
 ### API
 http://localhost:3000/rss?url=${rssFeedUrl}
+
+#
+Testad på node version >10
